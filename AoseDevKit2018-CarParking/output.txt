@@ -1,0 +1,289 @@
+sleeping for 1000
+wakeup
+sleeping for 2000
+wakeup
+NEAR ME env g106 c6 g116
+NEAR ME env g116 c4 g106
+NEAR ME env g106 c6 g116
+NEAR ME env g34 c5 g24
+NEAR ME env g24 c3 g34
+NEAR ME env g24 c3 g34
+NEAR ME env g24 c3 g34
+NEAR ME env g24 c3 g34
+NEAR ME env g24 c3 g34
+NEAR ME env g24 c3 g34
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c5 g24
+NEAR ME env g14 c5 g24
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c5 g24
+NEAR ME env g14 c5 g24
+NEAR ME env g14 c5 g24
+NEAR ME env g14 c5 g24
+NEAR ME env g14 c5 g24
+NEAR ME env g55 c3 g45
+NEAR ME env g45 c4 g55
+NEAR ME env g35 c3 g45
+NEAR ME env g35 c3 g45
+NEAR ME env g35 c3 g45
+NEAR ME env g35 c3 g45
+NEAR ME env g35 c3 g45
+NEAR ME env g45 c5 g35
+NEAR ME env g44 c3 g45
+NEAR ME env g35 c3 g45
+NEAR ME env g45 c5 g35
+NEAR ME env g45 c4 g44
+NEAR ME env g35 c3 g45
+NEAR ME env g34 c5 g35
+NEAR ME env g34 c0 g24
+NEAR ME env g24 c4 g34
+NEAR ME env g34 c5 g35
+NEAR ME env g34 c0 g24
+NEAR ME env g24 c4 g34
+NEAR ME env g34 c5 g35
+NEAR ME env g34 c0 g24
+NEAR ME env g24 c4 g34
+NEAR ME env g34 c5 g35
+NEAR ME env g34 c0 g24
+NEAR ME env g24 c4 g34
+NEAR ME env g34 c5 g35
+NEAR ME env g34 c0 g24
+NEAR ME env g24 c4 g34
+NEAR ME env g45 c5 g35
+NEAR ME env g35 c4 g34
+NEAR ME env g35 c3 g45
+NEAR ME env g24 c4 g34
+NEAR ME env g35 c4 g34
+NEAR ME env g35 c3 g45
+NEAR ME env g24 c4 g34
+NEAR ME env g35 c4 g34
+NEAR ME env g35 c3 g45
+NEAR ME env g24 c4 g34
+NEAR ME env g35 c4 g34
+NEAR ME env g35 c3 g45
+NEAR ME env g24 c4 g34
+NEAR ME env g35 c4 g34
+NEAR ME env g35 c3 g45
+NEAR ME env g34 c5 g35
+NEAR ME env g34 c0 g24
+NEAR ME env g35 c4 g34
+NEAR ME env g35 c3 g45
+NEAR ME env g45 c5 g35
+NEAR ME env g34 c5 g35
+NEAR ME env g34 c0 g24
+NEAR ME env g24 c4 g34
+NEAR ME env g35 c4 g34
+NEAR ME env g35 c3 g45
+NEAR ME env g24 c4 g34
+planner output:
+blackbox version 42
+command line:  blackbox/blackbox -o park-domain.pddl -f ./tmp/c5_problem_20180704200122
+
+Begin solver specification
+    -maxint        0   -maxsec 10.000000  graphplan
+    -maxint        0   -maxsec 0.000000  chaff
+End solver specification
+Loading domain file: park-domain.pddl
+Loading fact file: ./tmp/c5_problem_20180704200122
+Problem name: test1
+Facts loaded.
+time: 1, 218 facts and 2 exclusive pairs.
+time: 2, 219 facts and 1 exclusive pairs.
+time: 3, 219 facts and 0 exclusive pairs.
+time: 4, 219 facts and 0 exclusive pairs.
+1975 nodes created.
+
+----------------------------------------------------
+NO SOLUTION
+Problem not solvable: can't even reach non-mutex goals
+    Search halted after 0 steps
+    0 entries in hash table and 0 hits
+    avg set size 0
+----------------------------------------------------
+
+####################################################
+Total elapsed time:   0.02 seconds
+Time in milliseconds: 19
+
+####################################################
+
+NEAR ME env g35 c3 g45
+NEAR ME env g44 c3 g45
+NEAR ME env g45 c5 g35
+NEAR ME env g45 c4 g44
+NEAR ME env g35 c3 g45
+########## FULL DUMP C2 ########
+# c2-objects: g71 g105 g104 g70 g73 g103 g72 g102 g101 g31 g75 g74 g30 g100 g33 g32 g76 g35 g34 g36 g80 g106 g82 g81 g84 g40 g83 g42 g86 g41 g85 g44 g00 g43 g02 g46 g45 g01 g04 g03 g06 g05 c2 g91 g90 g93 g92 g51 g95 g94 g50 g53 g52 g96 g55 g11 g10 g54 g13 g12 g56 g15 g14 g16 g60 g116 g115 g114 g62 g61 g113 g64 g20 g112 g111 g63 g110 g22 g66 g21 g65 g24 g23 g26 g25 
+# c2-beliefs: (and (up g73 g83) (up g41 g51) (up g61 g71) (up g101 g111) (up g85 g95) (right g14 g15) (right g103 g104) (up g21 g31) (up g93 g103) (up g53 g63) (right g34 g35) (up g81 g91) (up g95 g105) (up g33 g43) (right g71 g72) (up g103 g113) (up g65 g75) (up g45 g55) (free g95) (up g01 g11) (free g94) (right g91 g92) (free g92) (right g02 g03) (free g90) (right g101 g102) (right g10 g11) (right g74 g75) (up g13 g23) (up g24 g34) (up g04 g14) (right g110 g111) (right g43 g44) (right g54 g55) (right g83 g84) (right g94 g95) (up g91 g101) (right g30 g31) (empty c2) (right g63 g64) (up g20 g30) (right g03 g04) (right g113 g114) (up g42 g52) (up g82 g92) (right g25 g26) (up g10 g20) (up g60 g70) (up g64 g74) (up g54 g64) (up g86 g96) (right g82 g83) (up g32 g42) (right g115 g116) (up g106 g116) (up g76 g86) (right g60 g61) (up g70 g80) (right g92 g93) (right g35 g36) (right g70 g71) (right g13 g14) (free g04) (free g03) (right g42 g43) (free g02) (slowcar c2) (free g01) (right g31 g32) (free g00) (right g20 g21) (up g105 g115) (right g75 g76) (right g64 g65) (free g06) (right g53 g54) (free g05) (up g36 g46) (up g96 g106) (up g25 g35) (up g14 g24) (up g90 g100) (up g03 g13) (right g105 g106) (right g114 g115) (free g24) (free g22) (up g102 g112) (right g104 g105) (up g83 g93) (up g94 g104) (up g63 g73) (up g31 g41) (up g71 g81) (up g75 g85) (right g04 g05) (up g11 g21) (free g15) (free g14) (right g93 g94) (free g12) (up g43 g53) (up g92 g102) (free g116) (right g44 g45) (free g115) (right g12 g13) (free g114) (free g113) (up g100 g110) (free g16) (up g23 g33) (right g81 g82) (right g24 g25) (up g55 g65) (up g46 g56) (free g46) (free g45) (free g44) (free g43) (right g85 g86) (up g35 g45) (free g42) (right g21 g22) (free g41) (up g02 g12) (right g65 g66) (up g104 g114) (right g32 g33) (free g40) (right g100 g101) (right g61 g62) (free g36) (free g35) (free g34) (right g72 g73) (free g32) (free g31) (free g30) (up g06 g16) (up g15 g25) (right g41 g42) (up g26 g36) (right g52 g53) (right g15 g16) (up g84 g94) (free g65) (right g80 g81) (up g30 g40) (free g63) (up g52 g62) (right g05 g06) (right g90 g91) (up g72 g82) (up g50 g60) (up g74 g84) (free g62) (me c2) (free g61) (free g60) (right g50 g51) (up g22 g32) (free g55) (free g54) (free g53) (right g23 g24) (free g52) (right g01 g02) (right g112 g113) (up g00 g10) (right g55 g56) (up g80 g90) (up g34 g44) (up g44 g54) (free g50) (up g12 g22) (right g45 g46) (up g66 g76) (free g85) (up g56 g66) (free g105) (free g104) (free g102) (free g106) (right g11 g12) (right g33 g34) (free g111) (free g110) (right g22 g23) (free g84) (free g82) (free g81) (free g80) (right g00 g01) (free g76) (free g75) (free g74) (on c2 g112) (right g40 g41) (right g62 g63) (right g102 g103) (right g51 g52) (right g73 g74) (free g101) (free g100) (right g84 g85) (free g73) (up g40 g50) (free g72) (free g71) (right g95 g96) (free g70) (up g51 g61) (up g16 g26) (up g05 g15) (right g111 g112) (up g62 g72) )
+# c2-currentIntentions (2):
+# c2   11_Request_intention(11_Request_msg(God->c2): 12_ReachPddlGoal_goal ( and  (on c2 g112) )): ReachPddlGoal_goal
+# c2   0_PostmanOneRequestAtTime_intention(0_Postman_goal)
+# c2-waitingIntentions (1):
+# c2   0_PostmanOneRequestAtTime_intention(0_Postman_goal)
+# c2-pendingMessages (0): 
+# env-objects: g105 g71 g104 g70 g103 g73 g102 g72 g101 g75 g31 g100 g74 g30 g33 g76 g32 g35 g34 g36 g80 g106 g82 g81 g84 g40 g83 g86 g42 g85 g41 g44 g00 g43 g46 g02 g45 g01 g04 g03 g06 c0 g05 c1 c2 c3 c4 c5 c6 g91 g90 g93 g92 g95 g51 g94 g50 g53 g96 g52 g55 g11 g54 g10 g13 g56 g12 g15 g14 g16 g116 g60 g115 g114 g62 g113 g61 g112 g64 g20 g111 g63 g110 g66 g22 g65 g21 g24 g23 g26 g25 
+# env-beliefs: (and (up g73 g83) (up g41 g51) (up g61 g71) (up g101 g111) (up g85 g95) (right g14 g15) (right g103 g104) (up g21 g31) (up g93 g103) (up g53 g63) (right g34 g35) (up g81 g91) (up g95 g105) (up g33 g43) (right g71 g72) (up g103 g113) (up g65 g75) (up g45 g55) (free g95) (up g01 g11) (free g94) (right g91 g92) (free g92) (right g02 g03) (free g90) (right g101 g102) (right g10 g11) (right g74 g75) (up g13 g23) (up g24 g34) (up g04 g14) (right g110 g111) (on c6 g110) (right g43 g44) (right g54 g55) (on c5 g35) (right g83 g84) (right g94 g95) (up g91 g101) (right g30 g31) (empty c2) (right g63 g64) (up g20 g30) (right g03 g04) (right g113 g114) (up g42 g52) (up g82 g92) (right g25 g26) (up g10 g20) (up g60 g70) (up g64 g74) (up g54 g64) (up g86 g96) (right g82 g83) (up g32 g42) (right g115 g116) (up g106 g116) (up g76 g86) (right g60 g61) (up g70 g80) (right g92 g93) (right g35 g36) (right g70 g71) (right g13 g14) (slowcar c6) (free g04) (waited c6) (right g42 g43) (free g03) (slowcar c3) (free g02) (slowcar c2) (free g01) (waited c3) (right g31 g32) (slowcar c1) (free g00) (waited c1) (right g20 g21) (up g105 g115) (right g75 g76) (right g64 g65) (free g06) (right g53 g54) (free g05) (up g36 g46) (up g96 g106) (up g25 g35) (up g14 g24) (up g90 g100) (up g03 g13) (right g105 g106) (right g114 g115) (free g24) (free g22) (up g102 g112) (right g104 g105) (up g83 g93) (on c1 g70) (on c4 g43) (up g94 g104) (up g63 g73) (up g31 g41) (up g71 g81) (up g75 g85) (right g04 g05) (up g11 g21) (free g15) (right g93 g94) (free g12) (up g43 g53) (up g92 g102) (free g116) (right g44 g45) (free g115) (right g12 g13) (free g114) (free g113) (up g100 g110) (free g16) (up g23 g33) (right g81 g82) (right g24 g25) (up g55 g65) (up g46 g56) (free g46) (free g44) (right g85 g86) (up g35 g45) (free g42) (right g21 g22) (free g41) (up g02 g12) (right g65 g66) (up g104 g114) (right g32 g33) (free g40) (right g100 g101) (right g61 g62) (free g36) (on c0 g14) (free g34) (right g72 g73) (free g32) (free g31) (free g30) (up g06 g16) (up g15 g25) (right g41 g42) (up g26 g36) (right g52 g53) (right g15 g16) (car c0) (up g84 g94) (car c5) (free g65) (right g80 g81) (up g30 g40) (car c4) (free g63) (up g52 g62) (right g05 g06) (right g90 g91) (up g72 g82) (up g50 g60) (up g74 g84) (me c5) (me c6) (me c3) (me c4) (me c1) (free g62) (me c2) (free g61) (on c3 g45) (free g60) (me c0) (right g50 g51) (up g22 g32) (free g55) (free g54) (free g53) (right g23 g24) (free g52) (right g01 g02) (right g112 g113) (up g00 g10) (right g55 g56) (up g80 g90) (up g34 g44) (up g44 g54) (free g50) (up g12 g22) (right g45 g46) (up g66 g76) (free g85) (up g56 g66) (free g105) (free g104) (free g102) (free g106) (right g11 g12) (right g33 g34) (free g111) (right g22 g23) (free g84) (free g82) (free g81) (free g80) (right g00 g01) (free g76) (free g75) (free g74) (on c2 g112) (right g40 g41) (right g62 g63) (right g102 g103) (right g51 g52) (right g73 g74) (free g101) (free g100) (right g84 g85) (free g73) (up g40 g50) (free g72) (free g71) (right g95 g96) (up g51 g61) (up g16 g26) (up g05 g15) (right g111 g112) (up g62 g72) )
+# env-currentIntentions (5):
+# env   2063_PddlAction_intention(2063_PddlAction_msg(c1->env))(move-up-wait)
+# env   2066_PddlAction_intention(2066_PddlAction_msg(c6->env))(move-down-wait)
+# env   2065_PddlAction_intention(2065_PddlAction_msg(c5->env))(move-left)
+# env   2069_PddlAction_intention(2069_PddlAction_msg(c0->env))(move-down)
+# env   3_PostmanEverythingInParallel_intention(3_Postman_goal)
+# env-waitingIntentions (5):
+# env   2063_PddlAction_intention(2063_PddlAction_msg(c1->env))(move-up-wait)
+# env   2065_PddlAction_intention(2065_PddlAction_msg(c5->env))(move-left)
+# env   2066_PddlAction_intention(2066_PddlAction_msg(c6->env))(move-down-wait)
+# env   2069_PddlAction_intention(2069_PddlAction_msg(c0->env))(move-down)
+# env   3_PostmanEverythingInParallel_intention(3_Postman_goal)
+# env-pendingMessages (2): 
+NEAR ME env g45 c5 g35
+NEAR ME env g44 c3 g45
+NEAR ME env g45 c5 g44
+NEAR ME env g54 c3 g55
+NEAR ME env g54 c3 g55
+NEAR ME env g54 c3 g55
+NEAR ME env g54 c3 g55
+NEAR ME env g90 c6 g100
+NEAR ME env g100 c1 g90
+NEAR ME env g55 c5 g54
+NEAR ME env g12 c4 g22
+NEAR ME env g54 c3 g55
+NEAR ME env g12 c4 g22
+NEAR ME env g54 c3 g55
+NEAR ME env g90 c6 g100
+NEAR ME env g22 c0 g12
+NEAR ME env g12 c4 g22
+NEAR ME env g100 c1 g90
+NEAR ME env g22 c0 g12
+NEAR ME env g12 c4 g22
+NEAR ME env g22 c0 g12
+NEAR ME env g12 c4 g22
+NEAR ME env g22 c0 g12
+NEAR ME env g12 c4 g22
+NEAR ME env g22 c0 g12
+NEAR ME env g12 c4 g22
+NEAR ME env g12 c4 g22
+NEAR ME env g90 c6 g100
+NEAR ME env g12 c4 g22
+NEAR ME env g100 c1 g90
+NEAR ME env g12 c4 g22
+NEAR ME env g90 c6 g100
+NEAR ME env g12 c4 g22
+NEAR ME env g12 c4 g22
+NEAR ME env g22 c0 g12
+NEAR ME env g12 c4 g22
+NEAR ME env g22 c0 g12
+NEAR ME env g12 c4 g22
+NEAR ME env g85 c5 g75
+NEAR ME env g75 c3 g85
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c4 g24
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c4 g24
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c4 g24
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c4 g24
+NEAR ME env g24 c0 g14
+########## FULL DUMP C3 ########
+# c3-objects: g71 g105 g104 g70 g73 g103 g72 g102 g101 g31 g75 g74 g30 g100 g33 g32 g76 g35 g34 g36 g80 g106 g82 g81 g84 g40 g83 g42 g86 g41 g85 g44 g00 g43 g02 g46 g45 g01 g04 g03 g06 g05 c3 c4 c5 g91 g90 g93 g92 g51 g95 g94 g50 g53 g52 g96 g55 g11 g10 g54 g13 g12 g56 g15 g14 g16 g116 g60 g115 g114 g62 g61 g113 g64 g20 g112 g111 g63 g110 g22 g66 g21 g65 g24 g23 g26 g25 
+# c3-beliefs: (and (up g73 g83) (up g41 g51) (up g61 g71) (up g101 g111) (up g85 g95) (right g14 g15) (right g103 g104) (up g21 g31) (up g93 g103) (up g53 g63) (right g34 g35) (up g81 g91) (up g95 g105) (up g33 g43) (right g71 g72) (up g103 g113) (up g65 g75) (up g45 g55) (free g95) (up g01 g11) (free g94) (right g91 g92) (free g92) (right g02 g03) (free g90) (right g101 g102) (right g10 g11) (right g74 g75) (up g13 g23) (up g24 g34) (up g04 g14) (right g110 g111) (right g43 g44) (right g54 g55) (right g83 g84) (right g94 g95) (up g91 g101) (right g30 g31) (empty c3) (right g63 g64) (up g20 g30) (right g03 g04) (right g113 g114) (up g42 g52) (up g82 g92) (right g25 g26) (up g10 g20) (up g60 g70) (up g64 g74) (up g54 g64) (up g86 g96) (right g82 g83) (up g32 g42) (right g115 g116) (up g106 g116) (up g76 g86) (right g60 g61) (up g70 g80) (right g92 g93) (right g35 g36) (right g70 g71) (right g13 g14) (free g04) (free g03) (right g42 g43) (slowcar c3) (free g02) (free g01) (right g31 g32) (free g00) (right g20 g21) (up g105 g115) (right g75 g76) (right g64 g65) (free g06) (right g53 g54) (free g05) (up g36 g46) (up g96 g106) (up g25 g35) (up g14 g24) (up g90 g100) (up g03 g13) (right g105 g106) (right g114 g115) (free g24) (free g22) (up g102 g112) (right g104 g105) (up g83 g93) (up g94 g104) (up g63 g73) (up g31 g41) (up g71 g81) (up g75 g85) (right g04 g05) (up g11 g21) (free g15) (free g14) (right g93 g94) (free g12) (up g43 g53) (up g92 g102) (free g116) (right g44 g45) (right g12 g13) (free g114) (free g113) (up g100 g110) (free g16) (up g23 g33) (right g81 g82) (right g24 g25) (up g55 g65) (up g46 g56) (free g46) (free g45) (free g44) (free g43) (right g85 g86) (up g35 g45) (free g42) (right g21 g22) (free g41) (up g02 g12) (right g65 g66) (up g104 g114) (right g32 g33) (free g40) (right g100 g101) (right g61 g62) (free g36) (free g35) (free g34) (right g72 g73) (free g32) (free g31) (free g30) (up g06 g16) (up g15 g25) (right g41 g42) (up g26 g36) (right g52 g53) (right g15 g16) (up g84 g94) (free g65) (right g80 g81) (up g30 g40) (free g63) (up g52 g62) (right g05 g06) (right g90 g91) (up g72 g82) (up g50 g60) (up g74 g84) (me c3) (free g62) (free g61) (free g60) (on c3 g115) (right g50 g51) (up g22 g32) (free g55) (free g54) (free g53) (right g23 g24) (free g52) (right g01 g02) (right g112 g113) (up g00 g10) (right g55 g56) (up g80 g90) (up g34 g44) (up g44 g54) (free g50) (up g12 g22) (right g45 g46) (up g66 g76) (free g85) (up g56 g66) (free g105) (free g104) (free g102) (free g106) (right g11 g12) (right g33 g34) (free g112) (free g111) (free g110) (right g22 g23) (free g84) (free g82) (free g81) (free g80) (right g00 g01) (free g76) (free g75) (free g74) (right g40 g41) (right g62 g63) (right g102 g103) (right g51 g52) (right g73 g74) (free g101) (free g100) (right g84 g85) (free g73) (up g40 g50) (free g72) (free g71) (right g95 g96) (free g70) (up g51 g61) (up g16 g26) (up g05 g15) (right g111 g112) (up g62 g72) )
+# c3-currentIntentions (2):
+# c3   15_Request_intention(15_Request_msg(God->c3): 16_ReachPddlGoal_goal ( and  (on c3 g115) )): ReachPddlGoal_goal
+# c3   5_PostmanOneRequestAtTime_intention(5_Postman_goal)
+# c3-waitingIntentions (1):
+# c3   5_PostmanOneRequestAtTime_intention(5_Postman_goal)
+# c3-pendingMessages (0): 
+# env-objects: g105 g71 g104 g70 g103 g73 g102 g72 g101 g75 g31 g100 g74 g30 g33 g76 g32 g35 g34 g36 g80 g106 g82 g81 g84 g40 g83 g86 g42 g85 g41 g44 g00 g43 g46 g02 g45 g01 g04 g03 g06 c0 g05 c1 c2 c3 c4 c5 c6 g91 g90 g93 g92 g95 g51 g94 g50 g53 g96 g52 g55 g11 g54 g10 g13 g56 g12 g15 g14 g16 g116 g60 g115 g114 g62 g113 g61 g112 g64 g20 g111 g63 g110 g66 g22 g65 g21 g24 g23 g26 g25 
+# env-beliefs: (and (up g73 g83) (up g41 g51) (up g61 g71) (up g101 g111) (up g85 g95) (right g14 g15) (right g103 g104) (up g21 g31) (up g93 g103) (up g53 g63) (right g34 g35) (up g81 g91) (up g95 g105) (up g33 g43) (right g71 g72) (up g103 g113) (up g65 g75) (up g45 g55) (free g95) (up g01 g11) (free g94) (right g91 g92) (right g02 g03) (free g90) (right g101 g102) (right g10 g11) (right g74 g75) (up g13 g23) (up g24 g34) (up g04 g14) (right g110 g111) (on c6 g70) (right g43 g44) (right g54 g55) (right g83 g84) (right g94 g95) (up g91 g101) (empty c6) (right g30 g31) (empty c2) (empty c3) (right g63 g64) (up g20 g30) (right g03 g04) (right g113 g114) (up g42 g52) (up g82 g92) (right g25 g26) (up g10 g20) (up g60 g70) (up g64 g74) (up g54 g64) (up g86 g96) (right g82 g83) (up g32 g42) (right g115 g116) (up g106 g116) (up g76 g86) (right g60 g61) (up g70 g80) (right g92 g93) (right g35 g36) (right g70 g71) (right g13 g14) (slowcar c6) (free g04) (right g42 g43) (free g03) (slowcar c3) (free g02) (slowcar c2) (free g01) (right g31 g32) (slowcar c1) (free g00) (waited c1) (right g20 g21) (up g105 g115) (on c1 g92) (right g75 g76) (on c4 g24) (right g64 g65) (free g06) (right g53 g54) (free g05) (up g36 g46) (up g96 g106) (up g25 g35) (up g14 g24) (up g90 g100) (up g03 g13) (on c5 g76) (right g105 g106) (right g114 g115) (free g22) (up g102 g112) (right g104 g105) (up g83 g93) (up g94 g104) (up g63 g73) (up g31 g41) (up g71 g81) (up g75 g85) (right g04 g05) (up g11 g21) (free g15) (right g93 g94) (free g12) (up g43 g53) (up g92 g102) (free g116) (right g44 g45) (right g12 g13) (free g114) (free g113) (up g100 g110) (free g16) (up g23 g33) (right g81 g82) (right g24 g25) (up g55 g65) (up g46 g56) (free g46) (free g45) (free g44) (free g43) (right g85 g86) (up g35 g45) (free g42) (right g21 g22) (free g41) (up g02 g12) (right g65 g66) (up g104 g114) (right g32 g33) (free g40) (right g100 g101) (right g61 g62) (free g36) (on c0 g14) (free g35) (free g34) (right g72 g73) (free g32) (free g31) (free g30) (up g06 g16) (up g15 g25) (right g41 g42) (up g26 g36) (right g52 g53) (right g15 g16) (car c0) (up g84 g94) (car c5) (free g65) (right g80 g81) (up g30 g40) (car c4) (free g63) (up g52 g62) (right g05 g06) (right g90 g91) (up g72 g82) (up g50 g60) (up g74 g84) (me c5) (me c6) (me c3) (me c4) (me c1) (free g62) (me c2) (free g61) (free g60) (on c3 g115) (me c0) (right g50 g51) (up g22 g32) (free g55) (free g54) (free g53) (right g23 g24) (free g52) (right g01 g02) (right g112 g113) (up g00 g10) (right g55 g56) (up g80 g90) (up g34 g44) (up g44 g54) (free g50) (up g12 g22) (right g45 g46) (up g66 g76) (free g85) (up g56 g66) (free g105) (free g104) (free g102) (free g106) (right g11 g12) (right g33 g34) (free g111) (free g110) (right g22 g23) (free g84) (free g82) (free g81) (free g80) (right g00 g01) (free g75) (free g74) (on c2 g112) (right g40 g41) (right g62 g63) (right g102 g103) (right g51 g52) (right g73 g74) (free g101) (free g100) (right g84 g85) (free g73) (up g40 g50) (free g72) (free g71) (right g95 g96) (up g51 g61) (up g16 g26) (up g05 g15) (right g111 g112) (up g62 g72) )
+# env-currentIntentions (3):
+# env   2387_PddlAction_intention(2387_PddlAction_msg(c6->env))(wait)
+# env   2384_PddlAction_intention(2384_PddlAction_msg(c1->env))(move-up-wait)
+# env   3_PostmanEverythingInParallel_intention(3_Postman_goal)
+# env-waitingIntentions (3):
+# env   2384_PddlAction_intention(2384_PddlAction_msg(c1->env))(move-up-wait)
+# env   2387_PddlAction_intention(2387_PddlAction_msg(c6->env))(wait)
+# env   3_PostmanEverythingInParallel_intention(3_Postman_goal)
+# env-pendingMessages (1): 
+NEAR ME env g14 c4 g24
+NEAR ME env g102 c2 g112
+NEAR ME env g111 c2 g112
+NEAR ME env g22 c4 g32
+NEAR ME env g32 c0 g22
+########## FULL DUMP C1 ########
+# c1-objects: g71 g105 g104 g70 g73 g103 g72 g102 g101 g31 g75 g74 g30 g100 g33 g32 g76 g35 g34 g36 g80 g106 g82 g81 g84 g40 g83 g42 g86 g41 g85 g44 g00 g43 g02 g46 g45 g01 g04 g03 g06 g05 c1 c2 c6 g91 g90 g93 g92 g51 g95 g94 g50 g53 g52 g96 g55 g11 g10 g54 g13 g12 g56 g15 g14 g16 g116 g60 g115 g114 g62 g61 g113 g64 g20 g112 g111 g63 g110 g22 g66 g21 g65 g24 g23 g26 g25 
+# c1-beliefs: (and (up g73 g83) (up g41 g51) (up g61 g71) (up g101 g111) (up g85 g95) (right g14 g15) (right g103 g104) (up g21 g31) (up g93 g103) (up g53 g63) (right g34 g35) (up g81 g91) (up g95 g105) (up g33 g43) (right g71 g72) (up g103 g113) (up g65 g75) (up g45 g55) (free g95) (up g01 g11) (free g94) (right g91 g92) (free g92) (right g02 g03) (free g90) (right g101 g102) (right g10 g11) (on c1 g110) (right g74 g75) (up g13 g23) (up g24 g34) (up g04 g14) (right g110 g111) (right g43 g44) (right g54 g55) (right g83 g84) (right g94 g95) (up g91 g101) (right g30 g31) (empty c1) (right g63 g64) (up g20 g30) (right g03 g04) (right g113 g114) (up g42 g52) (up g82 g92) (right g25 g26) (up g10 g20) (up g60 g70) (up g64 g74) (up g54 g64) (up g86 g96) (right g82 g83) (up g32 g42) (right g115 g116) (up g106 g116) (up g76 g86) (right g60 g61) (up g70 g80) (right g92 g93) (right g35 g36) (right g70 g71) (right g13 g14) (free g04) (free g03) (right g42 g43) (free g02) (free g01) (slowcar c1) (right g31 g32) (free g00) (right g20 g21) (up g105 g115) (right g75 g76) (right g64 g65) (free g06) (right g53 g54) (free g05) (up g36 g46) (up g96 g106) (up g25 g35) (up g14 g24) (up g90 g100) (up g03 g13) (right g105 g106) (right g114 g115) (free g24) (free g22) (up g102 g112) (right g104 g105) (up g83 g93) (up g94 g104) (up g63 g73) (up g31 g41) (up g71 g81) (up g75 g85) (right g04 g05) (up g11 g21) (free g15) (free g14) (right g93 g94) (free g12) (up g43 g53) (up g92 g102) (free g116) (right g44 g45) (free g115) (right g12 g13) (free g114) (free g113) (up g100 g110) (free g16) (up g23 g33) (right g81 g82) (right g24 g25) (up g55 g65) (up g46 g56) (free g46) (free g45) (free g44) (free g43) (right g85 g86) (up g35 g45) (free g42) (right g21 g22) (free g41) (up g02 g12) (right g65 g66) (up g104 g114) (right g32 g33) (free g40) (right g100 g101) (right g61 g62) (free g36) (free g35) (free g34) (right g72 g73) (free g32) (free g31) (free g30) (up g06 g16) (up g15 g25) (right g41 g42) (up g26 g36) (right g52 g53) (right g15 g16) (up g84 g94) (free g65) (right g80 g81) (up g30 g40) (free g63) (up g52 g62) (right g05 g06) (right g90 g91) (up g72 g82) (up g50 g60) (up g74 g84) (me c1) (free g62) (free g61) (free g60) (right g50 g51) (up g22 g32) (free g55) (free g54) (free g53) (right g23 g24) (free g52) (right g01 g02) (right g112 g113) (up g00 g10) (right g55 g56) (up g80 g90) (up g34 g44) (up g44 g54) (free g50) (up g12 g22) (right g45 g46) (up g66 g76) (free g85) (up g56 g66) (free g105) (free g104) (free g102) (free g106) (right g11 g12) (right g33 g34) (free g111) (right g22 g23) (free g84) (free g82) (free g81) (free g80) (right g00 g01) (free g76) (free g75) (free g74) (on c2 g112) (right g40 g41) (right g62 g63) (right g102 g103) (right g51 g52) (right g73 g74) (free g101) (free g100) (right g84 g85) (free g73) (up g40 g50) (free g72) (free g71) (right g95 g96) (free g70) (up g51 g61) (up g16 g26) (up g05 g15) (right g111 g112) (up g62 g72) )
+# c1-currentIntentions (2):
+# c1   0_PostmanOneRequestAtTime_intention(0_Postman_goal)
+# c1   9_Request_intention(9_Request_msg(God->c1): 10_ReachPddlGoal_goal ( and  (on c1 g110) )): ReachPddlGoal_goal
+# c1-waitingIntentions (1):
+# c1   0_PostmanOneRequestAtTime_intention(0_Postman_goal)
+# c1-pendingMessages (0): 
+# env-objects: g105 g71 g104 g70 g103 g73 g102 g72 g101 g75 g31 g100 g74 g30 g33 g76 g32 g35 g34 g36 g80 g106 g82 g81 g84 g40 g83 g86 g42 g85 g41 g44 g00 g43 g46 g02 g45 g01 g04 g03 g06 c0 g05 c1 c2 c3 c4 c5 c6 g91 g90 g93 g92 g95 g51 g94 g50 g53 g96 g52 g55 g11 g54 g10 g13 g56 g12 g15 g14 g16 g116 g60 g115 g114 g62 g113 g61 g112 g64 g20 g111 g63 g110 g66 g22 g65 g21 g24 g23 g26 g25 
+# env-beliefs: (and (up g73 g83) (up g41 g51) (up g61 g71) (up g101 g111) (up g85 g95) (right g14 g15) (right g103 g104) (up g21 g31) (up g93 g103) (up g53 g63) (right g34 g35) (up g81 g91) (up g95 g105) (up g33 g43) (right g71 g72) (up g103 g113) (up g65 g75) (up g45 g55) (free g95) (up g01 g11) (free g94) (on c6 g40) (right g91 g92) (free g92) (right g02 g03) (free g90) (right g101 g102) (right g10 g11) (on c1 g110) (right g74 g75) (up g13 g23) (up g24 g34) (up g04 g14) (right g110 g111) (right g43 g44) (right g54 g55) (right g83 g84) (right g94 g95) (up g91 g101) (empty c6) (right g30 g31) (empty c2) (empty c3) (empty c1) (right g63 g64) (up g20 g30) (right g03 g04) (right g113 g114) (up g42 g52) (up g82 g92) (right g25 g26) (up g10 g20) (up g60 g70) (up g64 g74) (up g54 g64) (up g86 g96) (right g82 g83) (up g32 g42) (right g115 g116) (up g106 g116) (up g76 g86) (right g60 g61) (up g70 g80) (right g92 g93) (right g35 g36) (right g70 g71) (right g13 g14) (slowcar c6) (free g04) (right g42 g43) (free g03) (slowcar c3) (free g02) (slowcar c2) (free g01) (right g31 g32) (slowcar c1) (free g00) (right g20 g21) (up g105 g115) (right g75 g76) (right g64 g65) (free g06) (right g53 g54) (free g05) (up g36 g46) (up g96 g106) (up g25 g35) (up g14 g24) (up g90 g100) (up g03 g13) (on c5 g76) (on c4 g32) (right g105 g106) (right g114 g115) (free g24) (up g102 g112) (right g104 g105) (up g83 g93) (on c0 g22) (up g94 g104) (up g63 g73) (up g31 g41) (up g71 g81) (up g75 g85) (right g04 g05) (up g11 g21) (free g15) (free g14) (right g93 g94) (free g12) (up g43 g53) (up g92 g102) (free g116) (right g44 g45) (right g12 g13) (free g114) (free g113) (up g100 g110) (free g16) (up g23 g33) (right g81 g82) (right g24 g25) (up g55 g65) (up g46 g56) (free g46) (free g45) (free g44) (free g43) (right g85 g86) (up g35 g45) (free g42) (right g21 g22) (free g41) (up g02 g12) (right g65 g66) (up g104 g114) (right g32 g33) (right g100 g101) (right g61 g62) (free g36) (free g35) (free g34) (right g72 g73) (free g31) (free g30) (up g06 g16) (up g15 g25) (right g41 g42) (up g26 g36) (right g52 g53) (right g15 g16) (car c0) (up g84 g94) (car c5) (free g65) (right g80 g81) (up g30 g40) (car c4) (free g63) (up g52 g62) (right g05 g06) (right g90 g91) (up g72 g82) (up g50 g60) (up g74 g84) (me c5) (me c6) (me c3) (me c4) (me c1) (free g62) (me c2) (free g61) (on c3 g115) (free g60) (me c0) (right g50 g51) (up g22 g32) (free g55) (free g54) (free g53) (right g23 g24) (free g52) (right g01 g02) (right g112 g113) (up g00 g10) (right g55 g56) (up g80 g90) (up g34 g44) (up g44 g54) (free g50) (up g12 g22) (right g45 g46) (up g66 g76) (free g85) (up g56 g66) (free g105) (free g104) (free g102) (free g106) (right g11 g12) (right g33 g34) (free g111) (right g22 g23) (free g84) (free g82) (free g81) (free g80) (right g00 g01) (free g75) (free g74) (on c2 g112) (right g40 g41) (right g62 g63) (right g102 g103) (right g51 g52) (right g73 g74) (free g101) (free g100) (right g84 g85) (free g73) (up g40 g50) (free g72) (free g71) (right g95 g96) (free g70) (up g51 g61) (up g16 g26) (up g05 g15) (right g111 g112) (up g62 g72) )
+# env-currentIntentions (3):
+# env   2470_SensingCars_intention(2470_SensingCars_msg(c4->env))
+# env   2469_SensingCars_intention(2469_SensingCars_msg(c0->env))
+# env   3_PostmanEverythingInParallel_intention(3_Postman_goal)
+# env-waitingIntentions (1):
+# env   2469_SensingCars_intention(2469_SensingCars_msg(c0->env))
+# env-pendingMessages (0): 
+NEAR ME env g22 c4 g32
+NEAR ME env g32 c0 g22
+NEAR ME env g22 c4 g32
+NEAR ME env g32 c0 g22
+NEAR ME env g22 c4 g32
+NEAR ME env g32 c0 g22
+NEAR ME env g22 c4 g32
+NEAR ME env g32 c0 g22
+NEAR ME env g22 c4 g32
+NEAR ME env g32 c0 g22
+NEAR ME env g22 c4 g32
+NEAR ME env g22 c4 g32
+NEAR ME env g22 c4 g32
+NEAR ME env g22 c4 g32
+NEAR ME env g22 c4 g32
+NEAR ME env g22 c4 g32
+NEAR ME env g32 c0 g22
+NEAR ME env g32 c0 g22
+NEAR ME env g22 c4 g32
+NEAR ME env g14 c4 g24
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c4 g24
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c4 g24
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g24 c0 g14
+NEAR ME env g14 c4 g24
+NEAR ME env g14 c4 g24
+NEAR ME env g24 c0 g14
+NEAR ME env g75 c5 g76
+NEAR ME env g105 c3 g115
+########## FULL DUMP C0 ########
+# c0-objects: g71 g105 g104 g70 g73 g103 g72 g102 g101 g31 g75 g74 g30 g100 g33 g32 g76 g35 g34 g36 g80 g106 g82 g81 g84 g40 g83 g42 g86 g41 g85 g00 g44 g43 g02 g46 g45 g01 g04 g03 g06 c0 g05 c3 c4 c5 g91 g90 g93 g92 g51 g95 g94 g50 g53 g52 g96 g55 g11 g10 g54 g13 g12 g56 g15 g14 g16 g116 g60 g115 g114 g62 g61 g113 g64 g20 g112 g111 g63 g110 g22 g66 g21 g65 g24 g23 g26 g25 
+# c0-beliefs: (and (up g73 g83) (up g41 g51) (up g61 g71) (up g101 g111) (up g85 g95) (right g14 g15) (right g103 g104) (up g21 g31) (up g93 g103) (up g53 g63) (right g34 g35) (up g81 g91) (up g95 g105) (up g33 g43) (right g71 g72) (up g103 g113) (up g65 g75) (up g45 g55) (free g95) (up g01 g11) (free g94) (right g91 g92) (free g92) (right g02 g03) (free g90) (right g101 g102) (right g10 g11) (right g74 g75) (up g13 g23) (up g24 g34) (up g04 g14) (right g110 g111) (right g43 g44) (right g54 g55) (right g83 g84) (right g94 g95) (up g91 g101) (right g30 g31) (right g63 g64) (up g20 g30) (right g03 g04) (right g113 g114) (up g42 g52) (up g82 g92) (right g25 g26) (up g10 g20) (up g60 g70) (up g64 g74) (up g54 g64) (up g86 g96) (right g82 g83) (up g32 g42) (right g115 g116) (up g106 g116) (up g76 g86) (right g60 g61) (up g70 g80) (right g92 g93) (right g35 g36) (right g70 g71) (right g13 g14) (free g04) (right g42 g43) (free g03) (free g02) (free g01) (right g31 g32) (free g00) (right g20 g21) (up g105 g115) (right g75 g76) (right g64 g65) (free g06) (right g53 g54) (free g05) (up g36 g46) (up g96 g106) (up g25 g35) (up g14 g24) (up g90 g100) (up g03 g13) (right g105 g106) (right g114 g115) (free g24) (free g22) (up g102 g112) (right g104 g105) (up g83 g93) (up g94 g104) (up g63 g73) (up g31 g41) (up g71 g81) (up g75 g85) (right g04 g05) (up g11 g21) (free g15) (free g14) (right g93 g94) (free g12) (up g43 g53) (up g92 g102) (free g116) (right g44 g45) (right g12 g13) (free g114) (free g113) (up g100 g110) (free g16) (up g23 g33) (right g81 g82) (right g24 g25) (up g55 g65) (up g46 g56) (free g46) (free g45) (free g44) (free g43) (right g85 g86) (up g35 g45) (free g42) (right g21 g22) (free g41) (on c0 g106) (up g02 g12) (right g65 g66) (up g104 g114) (right g32 g33) (free g40) (right g100 g101) (right g61 g62) (free g36) (free g35) (free g34) (right g72 g73) (free g32) (free g31) (free g30) (up g06 g16) (up g15 g25) (right g41 g42) (up g26 g36) (right g52 g53) (car c0) (right g15 g16) (up g84 g94) (free g65) (right g80 g81) (up g30 g40) (free g63) (up g52 g62) (right g05 g06) (right g90 g91) (up g72 g82) (up g50 g60) (up g74 g84) (free g62) (free g61) (free g60) (on c3 g115) (me c0) (right g50 g51) (up g22 g32) (free g55) (free g54) (free g53) (right g23 g24) (free g52) (right g01 g02) (right g112 g113) (up g00 g10) (right g55 g56) (up g80 g90) (up g34 g44) (up g44 g54) (free g50) (up g12 g22) (right g45 g46) (up g66 g76) (free g85) (up g56 g66) (free g105) (free g104) (free g102) (right g11 g12) (right g33 g34) (free g112) (free g111) (free g110) (right g22 g23) (free g84) (free g82) (free g81) (free g80) (right g00 g01) (free g76) (free g75) (free g74) (right g40 g41) (right g62 g63) (right g102 g103) (right g51 g52) (right g73 g74) (free g101) (free g100) (right g84 g85) (free g73) (up g40 g50) (free g72) (free g71) (right g95 g96) (free g70) (up g51 g61) (up g16 g26) (up g05 g15) (right g111 g112) (up g62 g72) )
+# c0-currentIntentions (2):
+# c0   19_Request_intention(19_Request_msg(God->c0): 20_ReachPddlGoal_goal ( and  (on c0 g106) )): ReachPddlGoal_goal
+# c0   2_PostmanOneRequestAtTime_intention(2_Postman_goal)
+# c0-waitingIntentions (1):
+# c0   2_PostmanOneRequestAtTime_intention(2_Postman_goal)
+# c0-pendingMessages (0): 
+# env-objects: g105 g71 g104 g70 g103 g73 g102 g72 g101 g75 g31 g100 g74 g30 g33 g76 g32 g35 g34 g36 g80 g106 g82 g81 g84 g40 g83 g86 g42 g85 g41 g44 g00 g43 g46 g02 g45 g01 g04 g03 g06 c0 g05 c1 c2 c3 c4 c5 c6 g91 g90 g93 g92 g95 g51 g94 g50 g53 g96 g52 g55 g11 g54 g10 g13 g56 g12 g15 g14 g16 g116 g60 g115 g114 g62 g113 g61 g112 g64 g20 g111 g63 g110 g66 g22 g65 g21 g24 g23 g26 g25 
+# env-beliefs: (and (up g73 g83) (up g41 g51) (up g61 g71) (up g101 g111) (up g85 g95) (right g14 g15) (right g103 g104) (up g21 g31) (up g93 g103) (up g53 g63) (right g34 g35) (up g81 g91) (up g95 g105) (up g33 g43) (right g71 g72) (up g103 g113) (up g65 g75) (up g45 g55) (free g95) (up g01 g11) (free g94) (on c6 g40) (right g91 g92) (free g92) (right g02 g03) (free g90) (right g101 g102) (right g10 g11) (on c1 g110) (right g74 g75) (up g13 g23) (up g24 g34) (up g04 g14) (right g110 g111) (right g43 g44) (right g54 g55) (right g83 g84) (right g94 g95) (up g91 g101) (empty c6) (right g30 g31) (empty c2) (empty c3) (empty c1) (right g63 g64) (up g20 g30) (on c4 g06) (right g03 g04) (right g113 g114) (up g42 g52) (up g82 g92) (right g25 g26) (up g10 g20) (up g60 g70) (up g64 g74) (up g54 g64) (up g86 g96) (right g82 g83) (up g32 g42) (right g115 g116) (up g106 g116) (up g76 g86) (right g60 g61) (up g70 g80) (right g92 g93) (right g35 g36) (right g70 g71) (right g13 g14) (slowcar c6) (free g04) (right g42 g43) (free g03) (slowcar c3) (free g02) (slowcar c2) (free g01) (right g31 g32) (slowcar c1) (free g00) (right g20 g21) (up g105 g115) (right g75 g76) (right g64 g65) (right g53 g54) (free g05) (up g36 g46) (up g96 g106) (up g25 g35) (up g14 g24) (up g90 g100) (up g03 g13) (on c5 g76) (right g105 g106) (right g114 g115) (free g24) (free g22) (up g102 g112) (right g104 g105) (up g83 g93) (up g94 g104) (up g63 g73) (up g31 g41) (up g71 g81) (up g75 g85) (right g04 g05) (up g11 g21) (free g15) (free g14) (right g93 g94) (free g12) (up g43 g53) (up g92 g102) (free g116) (right g44 g45) (right g12 g13) (free g114) (free g113) (up g100 g110) (free g16) (up g23 g33) (right g81 g82) (right g24 g25) (up g55 g65) (up g46 g56) (free g46) (free g45) (free g44) (free g43) (right g85 g86) (up g35 g45) (free g42) (right g21 g22) (free g41) (on c0 g106) (up g02 g12) (right g65 g66) (up g104 g114) (right g32 g33) (right g100 g101) (right g61 g62) (free g36) (free g35) (free g34) (right g72 g73) (free g32) (free g31) (free g30) (up g06 g16) (up g15 g25) (right g41 g42) (up g26 g36) (right g52 g53) (right g15 g16) (car c0) (up g84 g94) (car c5) (free g65) (right g80 g81) (up g30 g40) (car c4) (free g63) (up g52 g62) (right g05 g06) (right g90 g91) (up g72 g82) (up g50 g60) (up g74 g84) (me c5) (me c6) (me c3) (me c4) (me c1) (free g62) (me c2) (free g61) (on c3 g115) (free g60) (me c0) (right g50 g51) (up g22 g32) (free g55) (free g54) (free g53) (right g23 g24) (free g52) (right g01 g02) (right g112 g113) (up g00 g10) (right g55 g56) (up g80 g90) (up g34 g44) (up g44 g54) (free g50) (up g12 g22) (right g45 g46) (up g66 g76) (free g85) (up g56 g66) (free g105) (free g104) (free g102) (right g11 g12) (right g33 g34) (free g111) (right g22 g23) (free g84) (free g82) (free g81) (free g80) (right g00 g01) (free g75) (free g74) (on c2 g112) (right g40 g41) (right g62 g63) (right g102 g103) (right g51 g52) (right g73 g74) (free g101) (free g100) (right g84 g85) (free g73) (up g40 g50) (free g72) (free g71) (right g95 g96) (free g70) (up g51 g61) (up g16 g26) (up g05 g15) (right g111 g112) (up g62 g72) )
+# env-currentIntentions (1):
+# env   3_PostmanEverythingInParallel_intention(3_Postman_goal)
+# env-waitingIntentions (0):
+# env-pendingMessages (0): 

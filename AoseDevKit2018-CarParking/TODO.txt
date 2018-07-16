@@ -1,0 +1,8 @@
+Sensing env modificata con filtraggio auto da togliere
+Sensing auto
+se libero move
+altrimenti ripianifica e aspetta
+
+
+todo
+creare action step reach e "blockon" custom
