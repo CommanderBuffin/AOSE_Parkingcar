@@ -1,6 +1,0 @@
-(define (problem test1)
-  (:domain park-domain)
-  (:objects g60 g00 g32 g24 c2 )
-  (:init (and (free g24) (slowcar c2) (empty c2) (on c2 g60) (free g00) (free g32) (me c2) ))
-  (:goal ( and  (on c2 g112) ))
-)
